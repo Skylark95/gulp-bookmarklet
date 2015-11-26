@@ -1,0 +1,36 @@
+{
+  "name": "gulp-bookmarklet",
+  "version": "1.0.0",
+  "description": "Gulp wrapper for the bookmarklet package used to generate multiple bookmarklets",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylark95/gulp-bookmarklet.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Derek <derek@skylark95.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/skylark95/gulp-bookmarklet/issues"
+  },
+  "homepage": "https://github.com/skylark95/gulp-bookmarklet#readme",
+  "dependencies": {
+    "bookmarklet": "0.0.4",
+    "gulp-util": "^3.0.7",
+    "netscape-bookmarks": "0.0.0",
+    "replace-ext": "0.0.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
+}
